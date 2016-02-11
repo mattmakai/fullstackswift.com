@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Matt Makai">
+    <meta name="description" content="Swift language articles and tutorials.">
+    <title>Language ConceptsFull Stack Swift</title>
+    <link href="/theme/css/s.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Full Stack Swift</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10">
+    <h1>Language Concepts</h1>
+    
+
+    <p>This 
+<a href="http://mhm5000.gitbooks.io/swift-cheat-sheet/content/index.html">Swift cheatsheet</a>
+provides loads of code examples for language syntax and constructs.</p>
+<h3>Optionals</h3>
+<ul>
+<li>
+<p><a href="https://thatthinginswift.com/switch-unwrap-shortcut/">Switches and optionals</a>  explains why optionals are a good fit for reducing the clunkiness in code
+  around variables that may or may not have a value.</p>
+</li>
+<li>
+<p><a href="http://www.touch-code-magazine.com/swift-optionals-use-let/">Swift Optionals: When to use if let, when ? and !, when as? and as</a>
+  digs into some of the confusing details behind force unwrapping, unwrapping
+  and general variable optional handling in Swift.</p>
+</li>
+</ul>
+<h3>Structs</h3>
+<h3>Classes</h3>
+<h3>Control Flow</h3>
+<ul>
+<li>
+<p><a href="http://austinzheng.com/2015/06/08/swift-2-control-flow/">Swift 2.0: Control Flow and Error Handling</a>
+  examines the modification of Swift's <code>do-while</code> loop to <code>repeat-while</code> so
+  the <code>do</code> statement could be introduced in 2.0. The post also covers the
+  <code>guard</code> statement with a good IPv4 address parsing example, the <code>defer</code>
+  keyword and wraps up with 2.0's new error handling mechanisms. A good note
+  in the post is the explanation of the <code>try!</code> (force try) keyword which
+  calls a function that can potentially throw an error and will terminate the
+  program with a runtime exception if an exception is thrown.</p>
+</li>
+<li>
+<p>Apple's official <a href="https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/ErrorHandling.html">Swift error handling</a>
+  page goes over the basics of representing, throwing and handlinge errors in
+  programs.</p>
+</li>
+</ul>
+<h3>Function Currying</h3>
+<p><em>Function currying</em> is a concept Swift brings in from functional programming. 
+Curried functions rewrite an existing function with multiple arguments into 
+a new function with a single parameter as input and a function as returned
+output.</p>
+<ul>
+<li>
+<p>There is a solid 
+  <a href="http://stackoverflow.com/questions/36314/what-is-currying">language-agnostic Stack Overflow post on curried functions</a>
+  that defines what they are and shows their background comes from algebra
+  functions.</p>
+</li>
+<li>
+<p><a href="http://ijoshsmith.com/2014/06/09/curried-functions-in-swift/">Curried functions in Swift</a>
+  provides a concrete simple example of a curried function versus using a
+  default parameter value.</p>
+</li>
+<li>
+<p>This post explains that 
+  <a href="http://oleb.net/blog/2014/07/swift-instance-methods-curried-functions/">Instance Methods are Curried Functions in Swift</a>
+  and provides an example of how using function currying in some cases leads
+  to cleaner code than in Objective-C.</p>
+</li>
+</ul>
+
+            </div>
+        </div>
+        <hr/>
+        <div class="footer pull-right" style="margin-bottom: 25px;">
+            <a href="http://www.mattmakai.com/">Matt Makai</a> 2016
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+
+{% block content %}
+    {% for page in pages|sort(attribute='sort') %}
+        <h2>{{ loop.index }}. {{ page.title }}</h2>
+        {{ page.content }}
+    {% endfor %}
+{% endblock %}

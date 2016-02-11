@@ -1,0 +1,2 @@
+Markdown==2.6.5
+pelican==3.6.3
