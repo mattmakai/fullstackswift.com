@@ -19,3 +19,8 @@ Mac.
   example code. Note that the code will not compile with Swift 2.1 but 
   if you fix the error in the way suggested by Xcode you'll be able to 
   run the app without issues.
+
+* [UIStackView tutorial](http://www.raywenderlich.com/114552/uistackview-tutorial-introducing-stack-views)
+  is another solid walkthrough on StackViews.
+
+
