@@ -18,10 +18,10 @@ provides loads of code examples for language syntax and constructs.
   and general variable optional handling in Swift.
 
 
-### Structs
-
-
-### Classes
+### Structs & Classes
+* [Swift Structs or Classes](http://faq.sealedabstract.com/structs_or_classes/)
+  is an FAQ to answer the common question of whether you should use a
+  struct or a class in various situations throughout your Swift applications.
 
 
 ### Control Flow
