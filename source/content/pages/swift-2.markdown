@@ -3,6 +3,9 @@ category: page
 slug: swift-2
 sort: 04
 
+* [Swift 2.2: New Features](https://swift.org/blog/swift-2-2-new-features/)
+  goes into detail on the new features and some backwards-incompatible
+  changes to the language since Swift 2.1.
 
 * [What's New in Swift 2?](http://www.raywenderlich.com/108522/whats-new-in-swift-2)
   gives a high level overview for the new error handling, protocol extensions,
