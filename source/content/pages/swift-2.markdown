@@ -7,6 +7,9 @@ sort: 04
   goes into detail on the new features and some backwards-incompatible
   changes to the language since Swift 2.1.
 
+* [About Swift](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/) 
+  is the official guide and language tour by Apple.
+
 * [What's New in Swift 2?](http://www.raywenderlich.com/108522/whats-new-in-swift-2)
   gives a high level overview for the new error handling, protocol extensions,
   and binding along with several other smaller additions that came with the
