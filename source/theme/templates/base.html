@@ -6,22 +6,20 @@
   <meta name="author" content="Matt Makai">
   <meta name="description" content="Swift language articles and tutorials.">
   <title>{% block title %}{% endblock %}Full Stack Swift</title>
-  <link href="/theme/css/s.css" rel="stylesheet">
+  <link href="/theme/css/f.css" rel="stylesheet">
   <link rel="shortcut icon" href="/source/theme/static/img/fss-logo.png">
 </head>
 
 <body>
     <div class="container">
         {% include "nav.html" %}
+        {% include "forkme.html" %}
         <div class="row">
             <div class="col-md-10">
                 {% block content %}{% endblock %}
             </div>
         </div>
-        <hr/>
-        <div class="footer pull-right" style="margin-bottom: 25px;">
-            <a href="http://www.mattmakai.com/">Matt Makai</a> 2016
-        </div>
+        {% include "footer.html" %}
     </div>
     {% include "googleanalytics.html" %}
 </body>
